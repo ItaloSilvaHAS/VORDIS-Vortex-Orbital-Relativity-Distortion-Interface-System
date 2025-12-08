@@ -1,0 +1,10 @@
+*.o
+*.obj
+*.exe
+black_hole_simulation
+*.out
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
