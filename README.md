@@ -6,6 +6,11 @@ Uma simulação visual interativa de um buraco negro distorcendo o tecido do esp
 
 ## O que você vai ver
 
+<p align="center">
+  <img src="./Assets/BlackHole.png" width="400">
+</p>
+
+
 - **Buraco Negro**: Esfera negra central representando o horizonte de eventos
 - **Tecido do Espaço-Tempo**: Grade 3D azul que se curva ao redor do buraco negro (efeito da gravidade)
 - **Disco de Acreção**: Milhares de partículas coloridas orbitando o buraco negro

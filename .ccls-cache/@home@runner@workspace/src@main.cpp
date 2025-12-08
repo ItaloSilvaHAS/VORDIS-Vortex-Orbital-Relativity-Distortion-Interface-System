@@ -321,25 +321,6 @@ void display() {
     drawAccretionDisk();
     drawGravitationalLensing();
     
-    glColor3f(1.0f, 1.0f, 1.0f);
-    glWindowPos2i(10, 580);
-    const char* title = "BLACK HOLE SIMULATION - 3D Spacetime Visualization";
-    for (const char* c = title; *c != '\0'; c++) {
-        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, *c);
-    }
-    
-    glWindowPos2i(10, 550);
-    const char* controls1 = "Controls: Mouse drag to rotate | Scroll to zoom | +/- to adjust mass";
-    for (const char* c = controls1; *c != '\0'; c++) {
-        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_12, *c);
-    }
-    
-    glWindowPos2i(10, 530);
-    const char* controls2 = "Space to pause | R to reset | Q to quit";
-    for (const char* c = controls2; *c != '\0'; c++) {
-        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_12, *c);
-    }
-    
     glutSwapBuffers();
 }
 
