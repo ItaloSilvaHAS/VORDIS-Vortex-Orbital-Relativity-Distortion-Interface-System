@@ -7,8 +7,9 @@ Uma simulação visual interativa de um buraco negro distorcendo o tecido do esp
 ## O que você vai ver
 
 <p align="center">
-  <img src="./Assets/BlackHole.png" width="400">
+  <img src="./Assets/BlackHole.png" width="100%">
 </p>
+
 
 
 - **Buraco Negro**: Esfera negra central representando o horizonte de eventos
